@@ -24,7 +24,7 @@ An idea is to support these both by encouraging their larger goal, and by encour
 
 # The environment
 
-`git --config http.followRedirects=true [clone/remote ...]` to access the
+`git -c http.followRedirects=true [clone/remote ...]` to access the
 arweave remote at the bottom of arkb.log, which is spread across multiple
 uploads using git's alternates mechanism.
 
