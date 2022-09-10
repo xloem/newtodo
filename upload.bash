@@ -49,6 +49,7 @@ ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
 git add arkb-log
 git commit -m "uploaded $ARWEAVE_TXID"
 
-git remote set-url arweave "$ARWEAVE_URL"
-
 mv "$LOCAL_MIRROR" "$LOCAL_MIRROR/../$ARWEAVE_TXID"
+
+git remote set-url arweave "$ARWEAVE_URL"
+git push --all github
