@@ -1,5 +1,5 @@
 first we'll need a goal of setting up how to do it
-we'll want a goal to add after that: how about deciding based on reasons and properties
+we'll want a goal to add after that: how about deciding based on reasons and properties [VERY SMALL, JUST TALK NO ACTION YET]
 	that wants a pair, so how about setting a schedule to resume this, and then doing an existing goal
 
 plan:
@@ -12,6 +12,12 @@ plan:
 norms:
 	- keep files under 100KoB
 	- log brainwaves when doing task
+
+2022-09-10 0745 ET
+	thinking of hypnotic-ish-chanting-ish
+	basically this relates _communication_ to _action_ in a basic and simple way.
+	this probably has to do with the importance of communication prior to action in our evolutionary history and
+	instinctive wisdom. ['establishing trust': this is more trustworthy than direct physical forcing]
 
 2022-09-10 0649 ET
 even though phase 1 is "for demo" we'll want to pick good behaviors with significant impact on our goals or life.
