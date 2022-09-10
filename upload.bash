@@ -12,6 +12,7 @@ ARWEAVE_URL="$(git remote get-url arweave)"
 ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
 echo "$ARWEAVE_URL"/objects >> "$LOCAL_MIRROR"/objects/info/http-alternates
 echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
+mkdir -p "$LOCAL_MIRROR/../$ARWEAVE_TXID/objects"
 
 git push --all --force "$LOCAL_MIRROR"
 git -C "$LOCAL_MIRROR" update-server-info
