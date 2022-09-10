@@ -1,3 +1,6 @@
+I have a timing concern.
+I seem to mostly work with timescales that are too short.
+
 this is hard so we want to start simple.
 
 first we'll need a goal of setting up how to do it
