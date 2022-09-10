@@ -9,18 +9,21 @@ url2txid() {
 git init --bare "$LOCAL_MIRROR"
 ARWEAVE_URL="$(sed -ne 's!.*\(https://arweave.net/[-_=a-zA-Z0-9]*\).*!\1!p' arkb-log)"
 ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
-LOCAL_ALTERNATE="$LOCAL_MIRROR"/../"$ARWEAVE_TXID"
-if [ ! -d "$LOCAL_ALTERNATE" ]
+if [ -n "$ARWEAVE_TXID" ]
 then
-	git -c http.followRedirects=true clone "$ARWEAVE_URL" "$LOCAL_ALTERNATE"
-	mkdir -p "$LOCAL_ALTERNATE/objects"
-fi
-	
-cp "$LOCAL_ALTERNATE"/objects/info/alternates "$LOCAL_MIRROR"/objects/info/alternates
-echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
-if (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 ))
-then
-	echo "../../$ARWEAVE_TXID"/objects > "$LOCAL_MIRROR"/objects/info/alternates
+	LOCAL_ALTERNATE="$LOCAL_MIRROR"/../"$ARWEAVE_TXID"
+	if [ ! -d "$LOCAL_ALTERNATE" ]
+	then
+		git -c http.followRedirects=true clone "$ARWEAVE_URL" "$LOCAL_ALTERNATE"
+		mkdir -p "$LOCAL_ALTERNATE/objects"
+	fi
+		
+	cp "$LOCAL_ALTERNATE"/objects/info/alternates "$LOCAL_MIRROR"/objects/info/alternates
+	echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
+	if (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 ))
+	then
+		echo "../../$ARWEAVE_TXID"/objects > "$LOCAL_MIRROR"/objects/info/alternates
+	fi
 fi
 
 git push --all --force "$LOCAL_MIRROR"
