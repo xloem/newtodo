@@ -57,4 +57,7 @@ once out loud.
 				maybe? unsure.
 06 1201 ET: "I'll wait until 12:31, and then return to newtodo and say this."
 07 1231 ET: "I'll do things until 1:01, and then return to newtodo and say this."
+08 0101 ET: "I'll do things until 1:31, and then return to this document and say this again."
+		journal: I added the "this document" part because "newtodo" sounds like the town my dad is at.
+
 		
