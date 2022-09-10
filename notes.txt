@@ -12,7 +12,7 @@ plan:
 		ideas include: this repository, existing shower pattern, simple-schedule
 		basically: _existing goals_, especially with return for other goals. this may have other benefits too.
 norms:
-	- keep files under 100KoB
+	- keep changes between uploads under 100KoB [there is also a way to not use pack files with alternates and have each file be under 100KoB]
 	- log brainwaves when doing task
 	- how about this:
 		- break into chanting/repeating
