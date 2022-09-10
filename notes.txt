@@ -1,0 +1,21 @@
+plan:
+	- property-based deciding with very-slow and accelerate-gently (increase increasingness very gently)
+		[note: stimulate stopping less for this]
+	- maybe: one or more easier things to establish the reinforcing behavior
+		ideas include: this repository, existing shower pattern, simple-schedule
+		basically: _existing goals_, especially with return for other goals. this may have other benefits too.
+
+2022-09-10 0649 ET
+even though phase 1 is "for demo" we'll want to pick good behaviors with significant impact on our goals or life.
+	for example, how the wim hof thing does all of shower (for hygiene and normal world) outdoors (for lifestyle prefrence) and practicing-doing-stuff (for de-/re- programming skills). it doesn't have to be that multipronged, but we want to go better than random, maybe at least two steps better than random.
+	what task would be better than this? have i done that at least twice?
+
+	sometimes we compare things based on "properties" which work when dissociated.
+	we'll likely form a goal aroudn manipulating a property list, as a harder task needing a lot of slowness
+		ok i'm feeling that out, let's start withj an easier task to establish as a fallback, and try to
+		keep them separate
+	ok i guess :(
+		ok let's do them side by side
+	we need [todo-list/executive-functioning/deciding-things-based-on-reasons] to grow steadily. not with reducing.
+	ideally with _increasing_. how about start very slow, and steady increase? i think we'll agree to that.
+good talk good talk.

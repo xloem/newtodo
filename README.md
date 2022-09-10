@@ -21,3 +21,15 @@ Once it is demonstrated the approach can continue working consistently while bei
 focus on behaviors that engage important things like executive functioning, major goals, rational choices, etc.
 
 An idea is to support these both by encouraging their larger goal, and by encouraging the parts needed to reach them.
+
+# The environment
+
+- README.md
+	This file. Ideally a clear entrypoint.
+- upload.bash
+	A start to appropriate _log storage_. Associated with goals regarding git repositories.
+- notes.txt
+	A start to _deciding what to do_. Can hold just some notes for planning what behaviors to use.
+- phase1
+	Folder can contain logs of phase 1. Keep logs under 99KB for bundlr upload.
+
