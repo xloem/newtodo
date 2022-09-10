@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-git init --bare .git/remote-mirror
-git -C .git/remote-mirror config gc.auto 0
+LOCAL_MIRROR=.git/remote-mirror
+git init --bare "$LOCAL_MIRROR"
+git -C "$LOCAL_MIRROR" config gc.auto 0
 
-git push remote-mirror
-git -C .git/remote-mirror update-server-info
+git push --force "$LOCAL_MIRROR"
+git -C "$LOCAL_MIRROR" update-server-info
 
-arkb deploy --use-bundler=https://node2.bundlr.network .git/remote-mirror | tee arkb-log
+HOME="$LOCAL_MIRROR" arkb deploy --auto-confirm --use-bundler=https://node2.bundlr.network "$LOCAL_MIRROR" #| tee arkb-log
