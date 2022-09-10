@@ -3,6 +3,11 @@ this is hard so we want to start simple.
 ideas:
 	- value around resuming automating with secure box, so we don't change the pattern without agreeing to
 	- making EEG work again. plugging phone into faster computer could help.
+	- supporting my personal willpower i.e. when i try to hard to do something internally
+	- making ongoing logging happen, big goal
+	- organizing room
+	- meeting obligations
+	- having a regular schedule
 	- lots more.
 plan:
 	- property-based deciding with very-slow and accelerate-gently (increase increasingness very gently)
