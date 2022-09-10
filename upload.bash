@@ -40,7 +40,7 @@ TAGS="$(
 	done
 )"
 
-HOME="$LOCAL_MIRROR" arkb deploy $TAGS --auto-confirm --use-bundler=https://node2.bundlr.network "$LOCAL_MIRROR" | tee arkb-log
+HOME="$LOCAL_MIRROR" arkb deploy $TAGS --no-colors --auto-confirm --use-bundler=https://node2.bundlr.network "$LOCAL_MIRROR" | tee arkb-log
 
 
 ARWEAVE_URL="$(sed -ne 's!.*\(https://arweave.net/[-_=a-zA-Z0-9]*\).*!\1!p' arkb-log)"
