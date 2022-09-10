@@ -1,12 +1,9 @@
-I have a timing concern.
-I seem to mostly work with timescales that are too short.
-
 this is hard so we want to start simple.
 
-first we'll need a goal of setting up how to do it
-we'll want a goal to add after that: how about deciding based on reasons and properties [VERY SMALL, JUST TALK NO ACTION YET]
-	that wants a pair, so how about setting a schedule to resume this, and then doing an existing goal
-
+ideas:
+	- value around resuming automating with secure box, so we don't change the pattern without agreeing to
+	- making EEG work again. plugging phone into faster computer could help.
+	- lots more.
 plan:
 	- property-based deciding with very-slow and accelerate-gently (increase increasingness very gently)
 		[note: stimulate stopping less for this]
@@ -24,6 +21,18 @@ norms:
 			so: words used, # repetitions, and duration.  and frequency.
 		- and doing
 			- find the threshold of repetitions, duration, etc, for doing to succeed.
+
+2022-09-10 top messages moved down
+I have a timing concern.
+I seem to mostly work with timescales that are too short.
+	try seting up a loop to return to the task
+		this helped.
+we'll want a goal to add after setting it up: how about deciding based on reasons and properties [VERY SMALL, JUST TALK NO ACTION YET]
+	that wants a pair, so how about setting a schedule to resume this, and then doing an existing goal
+
+
+first we'll need a goal of setting up how to do it
+
 
 2022-09-10 0745 ET
 	thinking of hypnotic-ish-chanting-ish
