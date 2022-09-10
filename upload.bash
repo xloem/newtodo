@@ -7,10 +7,22 @@ url2txid() {
 }
 
 git init --bare "$LOCAL_MIRROR"
-ARWEAVE_URL="$(git remote get-url arweave)"
+ARWEAVE_URL="$(sed -ne 's!.*\(https://arweave.net/[-_=a-zA-Z0-9]*\).*!\1!p' arkb-log)"
 ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
+LOCAL_ALTERNATE="$LOCAL_MIRROR"/../"$ARWEAVE_TXID"
+if [ ! -d "$LOCAL_ALTERNATE" ]
+then
+	git --config http.followRedirects=true clone "$ARWEAVE_URL" "$LOCAL_ALTERNATE"
+	mkdir -p "$LOCAL_ALTERNATE/objects"
+fi
+	
+#cp "$LOCAL_ALTERNATE"/objects/info/alternates "$LOCAL_MIRROR"/objects/info/alternates
 echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
-mkdir -p "$LOCAL_MIRROR/../$ARWEAVE_TXID/objects"
+#if (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 ))
+#then
+#	shuf "$LOCAL_ALTERNATE"/objects/info/alternates | head -n -1 > "$LOCAL_MIRROR"/objects/info/alternates
+#	echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
+#fi
 
 git push --all --force "$LOCAL_MIRROR"
 git -C "$LOCAL_MIRROR" gc
@@ -28,8 +40,12 @@ TAGS="$(
 
 HOME="$LOCAL_MIRROR" arkb deploy $TAGS --auto-confirm --use-bundler=https://node2.bundlr.network "$LOCAL_MIRROR" | tee arkb-log
 
+
 ARWEAVE_URL="$(sed -ne 's!.*\(https://arweave.net/[-_=a-zA-Z0-9]*\).*!\1!p' arkb-log)"
 ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
+
+git add arkb-log
+git commit -m "uploaded $ARWEAVE_TXID"
 
 git remote set-url arweave "$ARWEAVE_URL"
 
