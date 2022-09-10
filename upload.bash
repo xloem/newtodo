@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
+
 LOCAL_MIRROR=.git/remote-mirror
+
+url2txid() {
+	echo "${1##*/}"
+}
+
 git init --bare "$LOCAL_MIRROR"
 git -C "$LOCAL_MIRROR" config gc.auto 0
+ARWEAVE_URL="$(git remote get-url arweave)"
+ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
+echo "$ARWEAVE_URL"/objects >> "$LOCAL_MIRROR"/objects/info/http-alternates
+echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
 
 git push --all --force "$LOCAL_MIRROR"
 git -C "$LOCAL_MIRROR" update-server-info
@@ -19,5 +29,8 @@ TAGS="$(
 HOME="$LOCAL_MIRROR" arkb deploy $TAGS --auto-confirm --use-bundler=https://node2.bundlr.network "$LOCAL_MIRROR" | tee arkb-log
 
 ARWEAVE_URL="$(sed -ne 's!.*\(https://arweave.net/[-_=a-zA-Z0-9]*\).*!\1!p' arkb-log)"
+ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
 
 git remote set-url arweave "$ARWEAVE_URL"
+
+mv "$LOCAL_MIRROR" "$LOCAL_MIRROR/../$ARWEAVE_TXID"
