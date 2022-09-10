@@ -16,13 +16,12 @@ then
 	mkdir -p "$LOCAL_ALTERNATE/objects"
 fi
 	
-#cp "$LOCAL_ALTERNATE"/objects/info/alternates "$LOCAL_MIRROR"/objects/info/alternates
+cp "$LOCAL_ALTERNATE"/objects/info/alternates "$LOCAL_MIRROR"/objects/info/alternates
 echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
-#if (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 ))
-#then
-#	shuf "$LOCAL_ALTERNATE"/objects/info/alternates | head -n -1 > "$LOCAL_MIRROR"/objects/info/alternates
-#	echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
-#fi
+if (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 ))
+then
+	echo "../../$ARWEAVE_TXID"/objects > "$LOCAL_MIRROR"/objects/info/alternates
+fi
 
 git push --all --force "$LOCAL_MIRROR"
 git -C "$LOCAL_MIRROR" gc
