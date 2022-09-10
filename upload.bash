@@ -14,7 +14,7 @@ then
 	LOCAL_ALTERNATE="$LOCAL_MIRROR"/../"$ARWEAVE_TXID"
 	if [ ! -d "$LOCAL_ALTERNATE" ]
 	then
-		git -c http.followRedirects=true clone "$ARWEAVE_URL" "$LOCAL_ALTERNATE"
+		git -c http.followRedirects=true clone --bare "$ARWEAVE_URL" "$LOCAL_ALTERNATE"
 		mkdir -p "$LOCAL_ALTERNATE/objects"
 	fi
 		
