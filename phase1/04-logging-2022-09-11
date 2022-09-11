@@ -6,4 +6,5 @@
 				0927 i'm thinking of how it might be easy to increase logging slowly using the returning
 				     let's try it. we'll start with just 1 second and keep increasing. after every
 				     returning. [increasing by a single second]
-
+0929	1 second
+			first task would be to just make or engage a timer that does seconds.
