@@ -11,3 +11,15 @@
 1009	2 seconds
 			journal: i'm having more trouble converging my eyes than usual
 			         i'd like to hang at 2 seconds for now. i'm interested in developing the repeating phrases or such.
+				i think one of the concerns is how much time it takes up waiting for slow devices
+				and sorting out timers. it's nicer if there's a clearer path to including time for more
+				behaviors later. it coudl be a different timer-associated inhibition, not certain.
+						sounds like a more responsive timer would be nicer.
+				yeah not one that turns it's screen off and then pauses a long time, or is hard
+				to get to if fingers are spasming
+				i also want to think about other things, but here there's a lot of planning
+				ther next device setup
+						so maybe an automatic script would help here. relates with
+						a different concern, but would help work with the reasons.
+								not sure
+1048	2 seconds	not done yet
