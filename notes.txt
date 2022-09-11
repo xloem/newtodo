@@ -2,6 +2,7 @@ this is hard so we want to start simple.
 
 ideas:
 	- value around resuming automating with secure box, so we don't change the pattern without agreeing to
+	- many of us really need to support ecology and nature values
 	- making EEG work again. plugging phone into faster computer could help.
 	- supporting my personal willpower i.e. when i try to hard to do something internally
 	- making ongoing logging happen, big goal
