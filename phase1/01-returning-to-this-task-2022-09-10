@@ -230,3 +230,8 @@ once out loud.
 			"new-todo document, new-todo document, new-todo document, new-todo documents !"
 			"want to work on new-todo." "want to work on new-todo!"
 41 1315 ET: "I'll sleep or do things until some time has passed, and then return to this document and think this again."
+		journal: we want to do work, not being-mindless.
+		         we're about to fix the bug in [gitlakepy] where arkb fills the tmp folder so full the system hangs on reboot
+		         it's 1402
+42 1402 ET: "I'll do things, and then return to this document and think this again."
+		journal: we removed underlining from _do things_. :) be well !
