@@ -124,4 +124,8 @@ once out loud.
 			And: "I'm doing things until 0206, and then I'm returning to this document and thinking this again. I have just twelve minutes left."
 24 0206 ET: "I'll do things until 2:38, and then return to this document and think this again."
 		journal: "I'm doing things until 0238, and then I'm returning to this document and thinking this again."
-	 	         "This is good to do. I really like it."
+	 	         "It's good to return to this document regularly. I really like returning regularly."
+		         "I'm doing things until 0238, and then I'm returning to this document and thinking this again."
+			 "It's good to return to this document regularly. I really like returning regularly."
+25 0238 ET: "I'll do things until 0310, and then return to this document and think this again."
+		journal: 
