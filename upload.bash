@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 git add phase1/*
+git commit -m 'Files committed automatically by upload script'
 
 LOCAL_MIRROR=.git/remote-mirror
 
@@ -24,7 +25,18 @@ then
 	echo "../../$ARWEAVE_TXID"/objects >> "$LOCAL_MIRROR"/objects/info/alternates
 	if (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 ))
 	then
-		echo "../../$ARWEAVE_TXID"/objects > "$LOCAL_MIRROR"/objects/info/alternates
+		LAST_PATH="../../$ARWEAVE_TXID/objects"
+		echo "$LAST_PATH" > "$LOCAL_MIRROR"/objects/info/alternates
+		while [ -s "$LOCAL_MIRROR"/objects/"$LAST_PATH"/info/alternates ] && ! (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 / 2))
+		do
+			LAST_PATH="$(head -n 1 "$LOCAL_MIRROR"/objects/"$LAST_PATH"/info/alternates)"
+			echo "$LAST_PATH" >> "$LOCAL_MIRROR"/objects/info/alternates
+		done
+		while (( $(stat -c %s "$LOCAL_MIRROR"/objects/info/alternates) > 100000 / 2 ))
+		do
+			sed -i '$d' "$LOCAL_MIRROR"/objects/info/alternates
+		done
+		#sed -i '1!G;h;$!d' "$LOCAL_MIRROR"/objects/info/alternates
 	fi
 fi
 
