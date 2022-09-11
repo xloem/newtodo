@@ -10,6 +10,7 @@ url2txid() {
 }
 
 git init --bare "$LOCAL_MIRROR"
+rm -rf "$LOCAL_MIRROR"/hooks/*
 ARWEAVE_URL="$(sed -ne 's!.*\(https://arweave.net/[-_=a-zA-Z0-9]*\).*!\1!p' arkb-log)"
 ARWEAVE_TXID="$(url2txid "$ARWEAVE_URL")"
 if [ -n "$ARWEAVE_TXID" ]
