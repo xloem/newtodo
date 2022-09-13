@@ -1,30 +1,30 @@
 Save a wallet with `arkb wallet-save file-path.json`.
-[0G  [96m⣾ [90mPreparing 7 files...[0m[0G  [96m⣽ [90mPreparing 7 files...[0m[0G  [96m⣻ [90mPreparing 7 files...[0m[0G  [96m⢿ [90mPreparing 7 files...[0m[0G  [96m⡿ [90mPreparing 2 files...[0m[0G  [96m⣟ [90mPreparing 2 files...[0m[0G  [96m⣯ [90mPreparing 2 files...[0m[0G  [96m⣷ [90mPreparing 2 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G[2K[0G  [96m⣾ [90mBuilding manifest...[0m[0G[2KID                                           Size           Fee              Type                          Path                
-3UOJStBjlvEkINNbSssuu3KOjKN6D3ouv43oIGoH4u8  66.00 Bytes    -                application/octet-stream      config              
-FwYPGzx7HErBUfPUOTr3yp16gYuw4huui-vLXOULEHQ  21.00 Bytes    -                application/octet-stream      HEAD                
-Z8maUeCpGa2yZ69w6AX5Vjrj29QlBndDFC8SiXX8rBI  103.00 Bytes   -                application/octet-stream      packed-refs         
-dhIFQrwCavbpYYTDCqVPfwYADN1Y-69jvMbQhTyCyvY  73.00 Bytes    -                application/octet-stream      description         
-yjkJwfxj6MnHGdgGhwBaKFud6ieglCgPvSpzPcMxNhE  240.00 Bytes   -                application/octet-stream      info/exclude        
-_jVKtTh_oc6-ta4BcZILoqDVV8LF0jpibWTP72j7fdA  57.00 Bytes    -                application/octet-stream      info/refs           
-_TrylUBZXUQGksrynNcBh8n17XaZutQvQVqNSPtSIfE  6.97 kB        -                application/octet-stream      objects/info/alterna
-kOrZuNYNkWF0cBcdB7BW2fQ1dgNfQ8TAztEcy7d7rlI  17.49 kB       -                application/octet-stream      objects/info/commit-
-yNZLqtLGAVtRwSGs1zH9OM6PTLZGmaIbRA0YMFgzg0w  54.00 Bytes    -                application/octet-stream      objects/info/packs  
-FzKXXey_R776H65LfC-mZbK2W_4Y_hAgsLUB7Rz6byw  1.24 kB        -                application/octet-stream      objects/pack/pack-8e
-a_PHsUAXmmVyyoXofTS5OGblbk4hCJd2Libq9qNPK3w  11.64 kB       -                application/octet-stream      objects/pack/pack-8e
-vTep6hIjYRrRAyNhjAVjZdlA3pfSyuasGeEOb3k7wYo  -              -                application/x.arweave-manifest                    
-8yGJiyXGir3ABzcCnRQachNb-CfwUJvzzDjd4jXKpTY  55.49 kB       -                Bundle                        -                   
+[0G  [96m⣾ [90mPreparing 7 files...[0m[0G  [96m⣽ [90mPreparing 7 files...[0m[0G  [96m⣻ [90mPreparing 7 files...[0m[0G  [96m⢿ [90mPreparing 7 files...[0m[0G  [96m⡿ [90mPreparing 7 files...[0m[0G  [96m⣟ [90mPreparing 7 files...[0m[0G  [96m⣯ [90mPreparing 2 files...[0m[0G  [96m⣷ [90mPreparing 2 files...[0m[0G  [96m⣾ [90mPreparing 2 files...[0m[0G  [96m⣽ [90mPreparing 2 files...[0m[0G  [96m⣻ [90mPreparing 1 files...[0m[0G[2K[0G  [96m⣾ [90mBuilding manifest...[0m[0G[2KID                                           Size           Fee              Type                          Path                
+CvDwSrjvJz8twt3n_2PfFyCYtgiDE6IE85TMQpA1SZ0  21.00 Bytes    -                application/octet-stream      HEAD                
+V2bVkAYYTAI4v4B4hVDn3aH52XGQdJN-LYLEO5Mzpcg  73.00 Bytes    -                application/octet-stream      description         
+1HELz71PficBXJPZ8HjRWmP7oojumfnH9HbielOpm_0  66.00 Bytes    -                application/octet-stream      config              
+pT1LwZhbUjjEtvs_4sEwYlfP_VFv8ZAx7Wcr9Tov6wM  240.00 Bytes   -                application/octet-stream      info/exclude        
+G-r01TH33o-MOp0BIb-H0P9Shbkw1Y8bifZ1_EiyPlk  103.00 Bytes   -                application/octet-stream      packed-refs         
+irBgi_aitL7PQdBLBqfrjlQyuPdUs2S2wKXdct9TbRM  54.00 Bytes    -                application/octet-stream      objects/info/packs  
+VE37xo-9BOJaWHIDjSgFUxzCFmJSazMgJIdv-9OEZHw  1.24 kB        -                application/octet-stream      objects/pack/pack-be
+ZbsibryULjSTZ6S77AntgZIK8BhUlLceceaA1NAk0nQ  57.00 Bytes    -                application/octet-stream      info/refs           
+a8uVs3CXINZQTlzd5ElsL9JrbG6g7BIxJv-hN2kJUmw  17.61 kB       -                application/octet-stream      objects/info/commit-
+Gz5hThdIc_Zbfs4zheH83FtGIaXW1dt1ifAnfFH7_8M  7.02 kB        -                application/octet-stream      objects/info/alterna
+1DF9FKHrSmcCFERe6t-7-vl3o1lFNpaQjTFMY79pYr4  11.58 kB       -                application/octet-stream      objects/pack/pack-be
+OwwKrjtuITcAuAQx03vuN0pSr8MAnaNLrwezl9Rrong  -              -                application/x.arweave-manifest                    
+9LyOjYoQiSufyl1RD4FmZ3gcXq2cIcejvqbYwTP1epo  55.61 kB       -                Bundle                        -                   
 
 Summary
 Data items to deploy: 11 + 1 manifest
-Total size: 55.49 kB
+Total size: 55.61 kB
 Fees: 0 + 0 (10% arkb fee + 30% Bundlr fee)
 Total fee: 0
 
 Wallet
-Address: sD2K3LTI4lDQE3cLm5XuCZ2YvzPEC-CsYaNunA7nMvM
+Address: CVTIotIFqOqVizhtIIMmP4E_U8g5mPFG7axI3nK6IaI
 Current balance: 0.000000000000
 Balance after deploy: 0
 
-[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 8 files...[0m[0G  [96m⣷ [90mDeploying 8 files...[0m[0G  [96m⣾ [90mDeploying 8 files...[0m[0G  [96m⣽ [90mDeploying 8 files...[0m[0G  [96m⣻ [90mDeploying 7 files...[0m[0G  [96m⢿ [90mDeploying 3 files...[0m[0G  [96m⡿ [90mDeploying 3 files...[0m[0G  [96m⣟ [90mDeploying 3 files...[0m[0G  [96m⣯ [90mDeploying 3 files...[0m[0G  [96m⣷ [90mDeploying 3 files...[0m[0G  [96m⣾ [90mDeploying 1 files...[0m[0G  [96m⣽ [90mDeploying 1 files...[0m[0G  [96m⣻ [90mDeploying 1 files...[0m[0G  [96m⢿ [90mDeploying 1 files...[0m[0G  [96m⡿ [90mDeploying 1 files...[0m[0G[2K
+[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 12 files...[0m[0G  [96m⡿ [90mDeploying 12 files...[0m[0G  [96m⣟ [90mDeploying 12 files...[0m[0G  [96m⣯ [90mDeploying 12 files...[0m[0G  [96m⣷ [90mDeploying 12 files...[0m[0G  [96m⣾ [90mDeploying 12 files...[0m[0G  [96m⣽ [90mDeploying 12 files...[0m[0G  [96m⣻ [90mDeploying 12 files...[0m[0G  [96m⢿ [90mDeploying 8 files...[0m[0G  [96m⡿ [90mDeploying 8 files...[0m[0G  [96m⣟ [90mDeploying 8 files...[0m[0G  [96m⣯ [90mDeploying 8 files...[0m[0G  [96m⣷ [90mDeploying 4 files...[0m[0G  [96m⣾ [90mDeploying 3 files...[0m[0G  [96m⣽ [90mDeploying 3 files...[0m[0G  [96m⣻ [90mDeploying 3 files...[0m[0G  [96m⢿ [90mDeploying 1 files...[0m[0G  [96m⡿ [90mDeploying 1 files...[0m[0G  [96m⣟ [90mDeploying 1 files...[0m[0G  [96m⣯ [90mDeploying 1 files...[0m[0G[2K
 Data items deployed! Visit the following URL to see your deployed content:
-https://arweave.net/vTep6hIjYRrRAyNhjAVjZdlA3pfSyuasGeEOb3k7wYo
+https://arweave.net/OwwKrjtuITcAuAQx03vuN0pSr8MAnaNLrwezl9Rrong
