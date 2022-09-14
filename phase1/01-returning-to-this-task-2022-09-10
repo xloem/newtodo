@@ -711,3 +711,4 @@ once out loud.
 					we could interpret that as a test of strength around returning.
 120 1230 ET: "I'll engage document 3, then wait for 30 minutes and return."
 121 1300 ET: "I'll wait for 30 minutes and then return, and engage document 3 at 1500."
+122 1330 ET: "I'll wait for 30 minutes and then return, and engage document 3 after 90 minutes."
