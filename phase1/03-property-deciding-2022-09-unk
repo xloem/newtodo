@@ -224,6 +224,17 @@
 1457 ET: "I'm spending some time just being in this document. I'll do 5 1 minute intervals."
 	"I want to make a productive, value-and-experience-oriented todo list, that includes my old. I have something started."
 	60 seconds
+1458 ET: "I'm spending some time just being in this document. I'll do 5 1 minute intervals. This is my third."
+	"I want to make a productive, value-and-experience-oriented todo list, that includes my old. I have something started."
+	60 seconds
+1500 ET: "I'm spending some time just being in this document. I'll do 5 1 minute intervals. This is my fourth."
+	"I want to make a productive, value-and-experience-oriented todo list, that includes my old. I have something started."
+	60 seconds
+1501 ET: "I'm spending some time just being in this document. I'll do 5 1 minute intervals. This is my fifth."
+	"I want to make a productive, value-and-experience-oriented todo list, that includes my old. I have something started."
+	60 seconds
+1503 ET: "I spent 5 1 minutes intervals just being in this document."
+	"I want to make a productive, value-and-experience-oriented todo list, that includes my old. I have something started."
 
 Organising
 Logging
