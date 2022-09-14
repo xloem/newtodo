@@ -45,6 +45,7 @@
 	journal: we're thinking of how properties are _slow_ and _clear_. we want things to be _fast_ and _clear_.
 		 usually we are maybe more _fast_, _error-prone_ and _unclear_.
 0825 "I know I can find ways through my todo inhibitions. I'll do this again in 1 minute."
+	feedback: what was the inhibition around?
 0828 "I know I can find ways through my todo inhibitions with skill. I'll write this again in 1 minute."
 0829 "I know I can find ways through my todo inhibitions with skill. I'll write this again in 1 minute."
 0830 "I know I can find ways through my todo inhibitions with skill. I'll write this again in 1 minute."
@@ -56,6 +57,26 @@
 			it is useful to [see whether this is useful]: repeating something, to see if it's known.
 				50%[update] utility on developing judgement around soemthing, ignoring duration of time spent.
 
+#1006 "I want to make an organised todo list that has everything in it. I'll wait 5 seconds and return here."
+1013 "I want to make an organised todo list that has everything in it. I'll wait 10 seconds and return here."
+1013 "I want to make an organised todo list that has everything it it. I also want to do tasks in the list."
+	5 seconds
+1014 "I want to make a structure that helps me do that tasks I value."
+	5 seconds
+1014 "I want to make a structure that helps me do the tasks I value."
+	10 seconds
+1015 "For doing the tasks I value, I want a structure that helps me I identify what tasks I value."
+	5 seconds
+1016 "For doing the tasks I valuek, I want a structure that helps me identify what tasks I value."
+	10 seconds
+1017 "For doing the tasks I value, I'm thinking of labeling and ordering tasks and values as their reasons."
+	5 seconds
+1018 "For pursuing what I value, I'm thinking of labelling and ordering tasks and values as their reasons."
+	10 seconds
+1018 "I'm opening a new document to try out associating reasons with things, and then reusing those things."
+	journal: it was much harder to figure out the reasons for things. the values. in the new document.
+#1018 "For pursuing what I value, I'm thinking of labelling and ordering tasks and values as their reasons."
+1019 "For pursuing what I value, I'm thinking of labeling and ordering tasks and values as their reasons."
 
 Organising
 Logging
