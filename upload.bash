@@ -67,4 +67,4 @@ git commit -m "uploaded $ARWEAVE_TXID"
 mv "$LOCAL_MIRROR" "$LOCAL_MIRROR/../$ARWEAVE_TXID"
 
 git remote set-url arweave "$ARWEAVE_URL"
-#git push --all github
+git push --all github
