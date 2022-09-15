@@ -1,27 +1,27 @@
 Save a wallet with `arkb wallet-save file-path.json`.
-[0G  [96m⣾ [90mPreparing 7 files...[0m[0G  [96m⣽ [90mPreparing 7 files...[0m[0G  [96m⣻ [90mPreparing 6 files...[0m[0G  [96m⢿ [90mPreparing 5 files...[0m[0G  [96m⡿ [90mPreparing 3 files...[0m[0G  [96m⣟ [90mPreparing 3 files...[0m[0G  [96m⣯ [90mPreparing 2 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G  [96m⣻ [90mPreparing 1 files...[0m[0G  [96m⢿ [90mPreparing 1 files...[0m[0G  [96m⡿ [90mPreparing 1 files...[0m[0G  [96m⣟ [90mPreparing 1 files...[0m[0G  [96m⣯ [90mPreparing 1 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G  [96m⣻ [90mPreparing 1 files...[0m[0G  [96m⢿ [90mPreparing 1 files...[0m[0G  [96m⡿ [90mPreparing 1 files...[0m[0G  [96m⣟ [90mPreparing 1 files...[0m[0G  [96m⣯ [90mPreparing 1 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G  [96m⣻ [90mPreparing 1 files...[0m[0G  [96m⢿ [90mPreparing 1 files...[0m[0G  [96m⡿ [90mPreparing 1 files...[0m[0G  [96m⣟ [90mPreparing 1 files...[0m[0G  [96m⣯ [90mPreparing 1 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G[2K[0G  [96m⣾ [90mBuilding manifest...[0m[0G[2KID                                           Size           Fee              Type                          Path                
-IIwvtBfllL3b3rUn6OwCmwvTryug1tQtW85Pa8nszbw  103.00 Bytes   -                application/octet-stream      packed-refs         
-pIMrjb0xXVjMuQFb_j0zL-Cfs_Mb27MQyMMOf4yL-m0  57.00 Bytes    -                application/octet-stream      info/refs           
-TnPCUTJGkmUaYjlmCCSUXl1ri4QNOE3oWvYAdJLNMxA  22.41 kB       -                application/octet-stream      objects/info/commit-
-u16YMrO5szcTPk30bOhwWDbc8bwd1IYggBoLqLm9qX4  54.00 Bytes    -                application/octet-stream      objects/info/packs  
-a9HbKTGyM5ojcT4mkPENoTd3NCnxU2a7FnSxD2wsv3M  11.95 kB       -                application/octet-stream      objects/pack/pack-b9
-FpJgfrNl-BRq0aMcdcGtpxPq02AfPlNOKBUFXFwxXfM  36.95 kB       -                application/octet-stream      objects/pack/pack-b9
-1LBheLuY3E621g_swSda8sXyEVDFkqsd_iBdbS1-RME  331.62 kB      -                application/octet-stream      objects/pack/pack-b9
-z-63aA1N9OcvPXeqPvx-u0h2ghTId3EWs2evJSXO4-4  240.00 Bytes   -                application/octet-stream      info/exclude        
-VeHevz0rzM7XgtclMn2fzPd-z3iyZuNmv6_Yz54_ZGg  73.00 Bytes    -                application/octet-stream      description         
-Zbt9WUdOCWadHALgNiTRHduCbm857LAKHF4ttnX1ucI  21.00 Bytes    -                application/octet-stream      HEAD                
-Qz490OqQGrl-iBITJAjUu5IeLfxefMLmKFGYBhtMwaI  66.00 Bytes    -                application/octet-stream      config              
-1Dsflu-tns-_BUBkp-K_y_F3l57vfzCQb2kuwH_yV5c  -              -                application/x.arweave-manifest                    
-dseuJIgWiOuNjXyBazV6oxdwg30zecB49Gor0dzt6jk  421.14 kB      0.000112673572   Bundle                        -                   
+[0G  [96m⣾ [90mPreparing 7 files...[0m[0G  [96m⣽ [90mPreparing 7 files...[0m[0G  [96m⣻ [90mPreparing 6 files...[0m[0G  [96m⢿ [90mPreparing 5 files...[0m[0G  [96m⡿ [90mPreparing 3 files...[0m[0G  [96m⣟ [90mPreparing 2 files...[0m[0G  [96m⣯ [90mPreparing 1 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G  [96m⣻ [90mPreparing 1 files...[0m[0G  [96m⢿ [90mPreparing 1 files...[0m[0G  [96m⡿ [90mPreparing 1 files...[0m[0G  [96m⣟ [90mPreparing 1 files...[0m[0G  [96m⣯ [90mPreparing 1 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G  [96m⣻ [90mPreparing 1 files...[0m[0G  [96m⢿ [90mPreparing 1 files...[0m[0G  [96m⡿ [90mPreparing 1 files...[0m[0G  [96m⣟ [90mPreparing 1 files...[0m[0G  [96m⣯ [90mPreparing 1 files...[0m[0G  [96m⣷ [90mPreparing 1 files...[0m[0G  [96m⣾ [90mPreparing 1 files...[0m[0G  [96m⣽ [90mPreparing 1 files...[0m[0G[2K[0G[2KID                                           Size           Fee              Type                          Path                
+IMSvpkUhWtt2wdTjxoE3ovtcmJmixQ5eqSatEPUqaUs  103.00 Bytes   -                application/octet-stream      packed-refs         
+TdhvsFQBd1fSgzfnA2QcAfGsD9i9eT-67tyqgh766js  57.00 Bytes    -                application/octet-stream      info/refs           
+INFJODLs8Haorq3ggL3SuZFxjjqBmxspNw7MgRtfQfo  22.53 kB       -                application/octet-stream      objects/info/commit-
+j6GyeGashlKtmrn_JHr7-I0CheYkRkwrsWmP_Z13MPM  54.00 Bytes    -                application/octet-stream      objects/info/packs  
+-KUljPqf-I0NN2B8OIP-7gn9NCtBzW7FQl3EVt61NhY  12.02 kB       -                application/octet-stream      objects/pack/pack-ad
+MsZ_09pRTV5tcxmiMRhRc8ywCa3ygQU2AwYErNaLWGs  37.14 kB       -                application/octet-stream      objects/pack/pack-ad
+0u-cXX4RXI8-kXmcNcx--FVKdDew4tY3n9pQ_4_3WLk  332.92 kB      -                application/octet-stream      objects/pack/pack-ad
+9yswnlj-veSnup8hiUkArPhgkm-wtDIzvzVlGjbvFXM  21.00 Bytes    -                application/octet-stream      HEAD                
+9mb_jeHjcpced1zSwkHrD7FSwdu2xsgU89n_jvN17VE  73.00 Bytes    -                application/octet-stream      description         
+O7jylFpES3L2DRBhzUuLK38lYnHTbDw_7QOqtquUNKM  240.00 Bytes   -                application/octet-stream      info/exclude        
+_iwtIlJJ79RS8GZJ6ZtflpGkWHWV8z5G0JINBbWGqT8  66.00 Bytes    -                application/octet-stream      config              
+brpBPyo9Az6Jfl-YpgbtBZnVY0txMUU3Rp3J4RY9vzQ  -              -                application/x.arweave-manifest                    
+gwgsQzkWDMjDwY78bRnD70gCyx78r49Epd054hUcNPE  422.82 kB      0.000112673572   Bundle                        -                   
 
 Summary
 Data items to deploy: 11 + 1 manifest
-Total size: 421.14 kB
+Total size: 422.82 kB
 Fees: 0.000112673572 + 0.000045069428 (10% arkb fee + 30% Bundlr fee)
 Total fee: 0.000157743000
 
 Wallet
-Address: sDFIfXcYf0dRXoW8GqZ7r7BwNgqyBxOOk0ROv2d3Yjc
+Address: eqZrNFnCS8TPEejW6Xcp1rho9ni1cyQHj8ddzXFD5Jc
 Current balance: 0.000000000000
 Balance after deploy: -0.000157743
 
