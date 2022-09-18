@@ -76,4 +76,8 @@
 178 0103 ET: "I'll wait for 2 minutes, and then return to newtodo again. I want to work on newtodo regularly."
 179 0105 ET: "I'll write how long to wait, and then return to newtodo again. I want to work on newtodo regularly."
 	journal: I'll wait 2 minutes.
+		 the uploads have stopped working and need more engagement than i expected, to succeed again
+		 i'll start a new git repository, and plan to do a cross-repository merge into this one
+180 0108 ET: "I'll decide how long to wait, and then return to newtodo again. I want to work on newtodo regularly."
+	journal: I'll wait 3 minutes.
 	
