@@ -57,3 +57,5 @@
 170 0032 ET: "I'll wait for 4 minutes, and then raise to 5 again. I want to work on newtodo regularly."
 171 0036 ET: "I'll wait for 5 minutes, and then return to newtodo again. I want to work on newtodo regularly."
 	journal: I noticed the 4 minutes upcoming.
+172 0042 ET: "I'll wait for 5 minutes, and then return to newtodo again. I want to work on newtodo regularly."
+	journal: I somewhat would also like to wait for 4 and 2 minutes again.
